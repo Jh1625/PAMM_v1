@@ -34,7 +34,7 @@ const observer2 = new IntersectionObserver((entries2) => {
     });
 });
 
-const hiddenelements2 = document.querySelectorAll(".trading .robot-1");
+const hiddenelements2 = document.querySelectorAll(".trading .robot-2");
 hiddenelements2.forEach((el2) => observer2.observe(el2));
 
 //Fourth transition
